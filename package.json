@@ -26,7 +26,8 @@
         "persist",
         "kue",
         "worker",
-        "push"
+        "push",
+        "notifiation"
     ],
     "author": {
         "name": "lykmapipo",
