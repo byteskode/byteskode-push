@@ -1,61 +1,61 @@
 {
-    "name": "byteskode-push",
-    "version": "0.1.0",
-    "description": "byteskode push notifiation with mongoose persistence and kue support",
-    "main": "index.js",
-    "scripts": {
-        "test": "grunt test",
-        "intergration": "grunt intergration",
-        "example": "npm link . && npm link byteskode-push && node examples/index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/byteskode/byteskode-push.git"
-    },
-    "keywords": [
-        "byteskode",
-        "byteskode-push",
-        "mongoose",
-        "mongoose-plugin",
-        "pusher",
-        "gcm",
-        "fcm",
-        "resend",
-        "send",
-        "queue",
-        "persist",
-        "kue",
-        "worker",
-        "push",
-        "notifiation"
-    ],
-    "author": {
-        "name": "lykmapipo",
-        "email": "lallyelias87@gmail.com",
-        "url": "https://github.com/lykmapipo"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/byteskode/byteskode-push/issues"
-    },
-    "homepage": "https://github.com/byteskode/byteskode-push",
-    "devDependencies": {
-        "async": "^1.5.0",
-        "chai": "^3.4.1",
-        "faker": "^3.1.0",
-        "grunt": "^0.4.5",
-        "grunt-contrib-jshint": "^0.11.3",
-        "grunt-contrib-watch": "^0.6.1",
-        "grunt-mocha-test": "^0.12.7",
-        "jshint-stylish": "^2.0.1",
-        "kue": "^0.11.1",
-        "mocha": "^2.5.3",
-        "mongoose": "^4.5.5"
-    },
-    "dependencies": {
-        "config": "^1.21.0",
-        "execution-environment": "^1.1.0",
-        "lodash": "^4.13.1",
-        "node-gcm": "^0.14.3"
-    }
+  "name": "byteskode-push",
+  "version": "0.1.1",
+  "description": "byteskode push notifiation with mongoose persistence and kue support",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "intergration": "grunt intergration",
+    "example": "npm link . && npm link byteskode-push && node examples/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byteskode/byteskode-push.git"
+  },
+  "keywords": [
+    "byteskode",
+    "byteskode-push",
+    "mongoose",
+    "mongoose-plugin",
+    "pusher",
+    "gcm",
+    "fcm",
+    "resend",
+    "send",
+    "queue",
+    "persist",
+    "kue",
+    "worker",
+    "push",
+    "notification"
+  ],
+  "author": {
+    "name": "lykmapipo",
+    "email": "lallyelias87@gmail.com",
+    "url": "https://github.com/lykmapipo"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byteskode/byteskode-push/issues"
+  },
+  "homepage": "https://github.com/byteskode/byteskode-push",
+  "devDependencies": {
+    "async": "^1.5.0",
+    "chai": "^3.4.1",
+    "faker": "^3.1.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "jshint-stylish": "^2.0.1",
+    "kue": "^0.11.1",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.5.5"
+  },
+  "dependencies": {
+    "config": "^1.21.0",
+    "execution-environment": "^1.1.0",
+    "lodash": "^4.13.1",
+    "node-gcm": "^0.14.3"
+  }
 }
