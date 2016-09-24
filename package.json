@@ -40,22 +40,22 @@
   },
   "homepage": "https://github.com/byteskode/byteskode-push",
   "devDependencies": {
-    "async": "^1.5.0",
-    "chai": "^3.4.1",
+    "async": "^1.5.2",
+    "chai": "^3.5.0",
     "faker": "^3.1.0",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-test": "^0.12.7",
-    "jshint-stylish": "^2.0.1",
+    "jshint-stylish": "^2.2.1",
     "kue": "^0.11.1",
     "mocha": "^2.5.3",
-    "mongoose": "^4.5.5"
+    "mongoose": "^4.6.1"
   },
   "dependencies": {
     "config": "^1.21.0",
     "execution-environment": "^1.1.0",
-    "lodash": "^4.13.1",
-    "node-gcm": "^0.14.3"
+    "lodash": "^4.16.1",
+    "node-gcm": "^0.14.4"
   }
 }
